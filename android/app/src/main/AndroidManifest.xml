@@ -3,6 +3,10 @@
         android:label="flutter_google_maps"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyAlgjO45p6rQKq-XlS7JN41iTG6xZRq2d8"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
